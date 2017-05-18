@@ -1,7 +1,7 @@
 import { <%= actionConstant %> } from './<%= importPath %>';
 
-function action(parameter) {
-  return { type: <%= actionConstant %>, parameter };
+function action(payload) {
+  return { type: <%= actionConstant %>, payload };
 }
 
 module.exports = action;
